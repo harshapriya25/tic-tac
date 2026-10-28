@@ -1,0 +1,15 @@
+{
+  "name": "tic-tac-toe-cicd-project",
+  "version": "1.0.0",
+  "description": "Playable Tic-Tac-Toe web app with GitHub Actions CI/CD practice",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node --test",
+    "check": "node --check app.js && node --check app.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
